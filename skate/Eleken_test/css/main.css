@@ -1,0 +1,134 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  padding: 0px 230px 0px 130px;
+  border-bottom: 1px solid #D3D3D3;
+  height: 60px; }
+  .header-wrap .container {
+    display: none; }
+    .header-wrap .container .container_span {
+      width: 20px;
+      height: 2px;
+      background-color: black;
+      margin: 5px 0; }
+  .header-wrap .header-wrap_block {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    color: blue;
+    font-weight: 800;
+    justify-content: space-between; }
+  .header-wrap .header-wrap_nav-list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .header-wrap .header-wrap_nav-list .header-wrap_list {
+      list-style: none;
+      margin: 0px;
+      padding: 0px; }
+      .header-wrap .header-wrap_nav-list .header-wrap_list .header-wrap_list_item {
+        display: inline-block;
+        padding: 20px 20px 20px 20px;
+        margin-right: 20px;
+        color: #A9A9A9;
+        text-align: center; }
+      .header-wrap .header-wrap_nav-list .header-wrap_list .header-wrap_list_item:hover {
+        border-bottom: 3px solid #1E90FF;
+        color: black; }
+
+.Ins-list {
+  display: flex;
+  align-items: center;
+  margin: 20px 70px 0px 70px;
+  border-bottom: 1px solid #D3D3D3; }
+  .Ins-list .Ins-list_block {
+    width: 100%;
+    font-size: 30px; }
+  .Ins-list .Ins-list_icon_burger {
+    padding-bottom: 5px; }
+  .Ins-list .Ins-list_icon_rectangle {
+    border-left: 2px solid #D3D3D3; }
+
+.main-table .table-head {
+  display: flex;
+  align-items: flex-start;
+  margin: 30px 70px 0px 70px;
+  font-size: 12px;
+  color: #D3D3D3; }
+  .main-table .table-head .table-head_item_1 {
+    margin-right: 30px; }
+  .main-table .table-head .table-head_item {
+    width: 11.11111%; }
+  .main-table .table-head .table-head_item:nth-child(4) {
+    margin-left: -30px; }
+  .main-table .table-head .table-head_item:nth-child(5) {
+    margin-left: 15px; }
+  .main-table .table-head .table-head_item:nth-child(6) {
+    margin-left: -30px; }
+
+.main-table .table-content {
+  padding-bottom: 20px;
+  margin: 30px 70px 0px 70px;
+  display: flex;
+  border-bottom: 1px solid #D3D3D3; }
+  .main-table .table-content .content_item_1 {
+    margin-right: 30px; }
+  .main-table .table-content .content_item {
+    width: 11.11111%;
+    display: flex;
+    align-items: center; }
+    .main-table .table-content .content_item .table-head_item_title {
+      display: none;
+      font-size: 12px;
+      color: #D3D3D3;
+      margin-right: 5px; }
+    .main-table .table-content .content_item .over {
+      color: #1E90FF;
+      height: 25px;
+      background-color: white;
+      border-radius: 3px;
+      border: 1px solid #D3D3D3;
+      margin-right: 5px; }
+    .main-table .table-content .content_item .buy {
+      color: white;
+      height: 25px;
+      background-color: #1E90FF;
+      border-radius: 3px;
+      border: 0px solid #D3D3D3;
+      width: 65px; }
+    .main-table .table-content .content_item .item_icon .item_icon_image {
+      width: 50px; }
+    .main-table .table-content .content_item .item_icon-question {
+      padding: 3px 0px 0px 4px; }
+    .main-table .table-content .content_item .item_title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: -9px; }
+  .main-table .table-content .content_item:nth-child(4) {
+    margin-left: -30px; }
+  .main-table .table-content .content_item:nth-child(5) {
+    margin-left: 15px; }
+  .main-table .table-content .content_item:nth-child(6) {
+    margin-left: -30px; }
+  .main-table .table-content .content_item:nth-child(9) {
+    justify-content: flex-end; }
+
+.footer {
+  margin: 90px 0px 50px 0px;
+  padding: 50px 70px 0px 70px;
+  color: #D3D3D3;
+  border-top: 1px solid #D3D3D3;
+  display: flex; }
+  .footer .footer-text1 {
+    margin-right: 20px; }
+  .footer .footer-text:nth-child(1) {
+    color: black; }
+  .footer .footer-text {
+    margin-right: 20px; }
